@@ -6,7 +6,7 @@
 */
 
 /* Challenge 5: Change the family of all elements to Arial */
-p{
+*{
   font-family: Arial;
   font-size: 20px;
 }
