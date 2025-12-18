@@ -10,12 +10,21 @@
     background-color:blueviolet;
 }
 /* Challenge 4: Give all elements with a class of container a display of flex */
-
+.container{
+    display: flex;
+}
 
 /* Challenge 5: Give all the images inside an element with a class of "container" a flex of 1, round the corner 10px, height of 150px 
    and drop a black shadow */
-
+.container{
+    flex: 1;
+    border-radius: 10px;
+    height: 150px;
+    box-shadow: black 4px 4px ; 
+}
 /* Challenge 6: Justify contents and align items in the center for all elements with a class of center */
-
+.center{
+    text-align: center;
+}
 
 /* Challenge 7: When the user hovers an image change the color of the shadow to red */
