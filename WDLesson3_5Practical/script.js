@@ -4,7 +4,9 @@
       3) Display the results in the appropriate element
 */
 function recArea(){
-
+      let 1 = parseFloat( document.getElementById("len").value);
+      let w = parseFloat( document.getElementById("wid").value);
+      let op= document.getElementById("output");
 }
 
 function recPerimeter(){
@@ -20,11 +22,17 @@ function recPerimeter(){
 let pi = 3.1415926;
 
 function cirArea(){
-
+      let r = parseFloat( document.getElementById("rad").value);
+      let op = document.getElementById("output");
+      let C = pi*(r **2);
+      op.innerHTML = "Area of circle is: "+ A;
 }
 
 function cirPerimeter(){
-
+      let r = parseFloat( document.getElementById("rad").value);
+      lep op = document.getElementById("outpur");
+      let c = 2*pi*r;
+      op.innerHTML ="Circu,ference of circle is: "+ C;
 }
 
 /* Challenge Bonus: Complete the area and perimeter functions below for the triangle.  Guidelines,
