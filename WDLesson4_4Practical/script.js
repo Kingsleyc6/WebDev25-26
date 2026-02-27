@@ -8,7 +8,8 @@ let correct;
 function generateProblem(){
        num1=Math.floor(Math.random()*(20-0+1)+0)
        num2=Math.floor(Math.random()*(20-0+1)+0)
-       correct= num1+num2
+       correct = num1+num2
+       prob.innerHTML=`${num1} + ${num2} =`;
        
 }
 
