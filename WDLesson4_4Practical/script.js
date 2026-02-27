@@ -7,7 +7,7 @@
 let correct;
 function generateProblem(){
        num1=Math.floor(Math.random()*(20-0+1)+0)
-       num2=Math.floor(Math.random()*(20-0+1)+0)
+       num2=Math.floor(Math.random()*(21)+0)
        correct = num1+num2
        prob.innerHTML=`${num1} + ${num2} =`;
        
@@ -23,7 +23,20 @@ function generateProblem(){
        4) Display msg in the output
 */
 function checkProblem(){
+       let user = parseInt(document.getElementById("response").value);
+       let op = document.getElementById("output");
+       let filename ="";
+       let msg ="";
 
+       if (user == correct){
+              filename= "correct.webp";
+              msg = `Correct! <br> <img src= "${filename}">`;
+       }else{
+              filename = "incorrect.avif";
+              msg =`Incorrect. The correct answer is ${correct}. <br> <img src"${filename}">`;
+       }
+       op.innerHTML = msg;
+       
 }
 
 
