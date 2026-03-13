@@ -12,3 +12,17 @@ Year 3: $xxxxxx
 ...
 Year N: $xxxxxx
 */
+
+function calculate(){
+    let output= 
+    let p = 10000
+    let r = 12500
+    let n = 14000
+    let t = years
+    let build = ""
+    for(let t = 0 ;t<= years; t+= 1){
+        let A= p*(1 + r/n)**(n*t);
+        build t = `year ${t}: $${A.toFixed(2)}<br>`;
+    }
+    output.innerHTML = build;
+    }
