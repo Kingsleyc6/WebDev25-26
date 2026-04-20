@@ -21,7 +21,10 @@ let meats = [
   { title: "Steak", image: "steak.jpg", price: 15.99 }
 ];
 // Challenge 5: Create an array of JSON where each JSON contains the name, an image source and price for each Seafood item.  
-
+let seafood = [
+  {title:"Carbs", image:"crabs.jpg", price :9.99},
+  {title:"Lobster", image:"lobster.png", price:5.99}
+];
 
 // Challenge 6: Create an array of JSON where each JSON contains the name, an image source and price for each Dessert item.  
 
